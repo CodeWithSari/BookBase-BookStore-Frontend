@@ -11,9 +11,9 @@ const menuItems = [
 
 export default function AdminSidebar() {
   return (
-    <aside className="w-64 bg-white border-r shadow-md flex flex-col">
+    <aside className="h-screen w-64 bg-[#e0f2f1] border-r shadow-md flex flex-col overflow-y-auto">
       {/* Profile Section */}
-      <div className="flex flex-col items-center py-6 bg-[#e0f2f1]">
+      <div className="flex flex-col items-center py-6 bg-[#e0f2f1] border-b border-[#004d40]/20">
         <img
           src="https://static2.typecast.ai/ta_preset/images/female_training.jpg"
           alt="Admin"
@@ -25,8 +25,7 @@ export default function AdminSidebar() {
       </div>
 
       {/* Navigation Menu */}
-      <div className="flex-1 p-4 bg-[#e0f2f1]">
-        
+      <div className="flex-1 p-4">
         <nav className="flex flex-col gap-2">
           {menuItems.map((item) => (
             <NavLink
