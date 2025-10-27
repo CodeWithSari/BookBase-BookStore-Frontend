@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+*
+{
+  font-family: "Roboto Slab", serif;
+  
+}
+p{
+font-family: "Dancing Script", cursive;
+}
+
+
